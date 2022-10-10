@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body{
+background-color: black;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.study{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-style: bold;
+    background-color: #44CC77;
+    border-radius: 30px;
+    padding: 4px 4px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.clock{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #17d4fe;
+filter: blur(10px);
+font-size: 60px;
+font-family: Papyrus;
+letter-spacing: 7px;
+-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+animation: clr_change 10s linear infinite;
+}
+@keyframes clr_change {
+0%{
+filter: blur(0px);
+color: green;
+}
+25%{
+filter: blur(0px);
+color: aquamarine;
+}
+50%{
+filter: blur(0px);
+color: #17d4fe;
+}
+75%{
+filter: blur(1px);
+color: rgb(255, 0, 251);
+}
+100%{
+filter: blur(0px);
+color: green;
+}
+}
+.yyt{
+text-align:center;
+-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+.yt{
+color:white;
+text-decoration:none;
+font-size:30px;
+font-weight:bolder;
+padding:5px;
+border:1px solid white;
+border-radius:10px;
+margin-top:10px;
+}
